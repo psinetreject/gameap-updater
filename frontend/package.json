@@ -1,6 +1,6 @@
 {
   "name": "gameap-updater",
-  "version": "2026.10.0",
+  "version": "2026.10.1",
   "description": "GameAP update center - plugin frontend",
   "private": true,
   "type": "module",
