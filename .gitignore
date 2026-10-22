@@ -1,0 +1,11 @@
+# build artifacts
+*.wasm
+frontend/dist/*
+!frontend/dist/.gitkeep
+
+# dependencies / caches
+node_modules/
+/.sdk/
+/.cache/
+# emitted by `tsc -p tsconfig.node.json` (composite project)
+frontend/*.tsbuildinfo

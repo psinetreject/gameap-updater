@@ -1,0 +1,31 @@
+{
+  "name": "gameap-updater",
+  "version": "2026.10.0",
+  "description": "GameAP update center - plugin frontend",
+  "private": true,
+  "type": "module",
+  "main": "./dist/plugin.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json"
+  },
+  "dependencies": {
+    "@gameap/plugin-sdk": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "axios": "^1.19.0",
+    "naive-ui": "^2.44.1",
+    "typescript": "6.0.3",
+    "vite": "^8.1.5",
+    "vue": "^3.5.22",
+    "vue-tsc": "^3.3.8"
+  },
+  "peerDependencies": {
+    "axios": "^1.0.0",
+    "naive-ui": "^2.43.0",
+    "vue": "^3.5.0"
+  }
+}

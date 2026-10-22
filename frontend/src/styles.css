@@ -1,0 +1,61 @@
+/*
+ * Updater - plugin styles.
+ *
+ * GameAP injects every plugin's CSS panel-wide, so every class is prefixed
+ * `gu-` (vite.config.ts fails the build otherwise), with no bare element
+ * selectors and no !important. Colours are the panel's --gameap-* tokens, which
+ * flip on html.dark.
+ */
+
+.gu-root {
+    max-width: 960px;
+}
+
+.gu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.gu-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.gu-gap {
+    margin-bottom: 1rem;
+}
+
+.gu-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.gu-muted {
+    color: var(--gameap-text-muted, #6b7280);
+    font-size: 0.875rem;
+}
+
+.gu-subtable {
+    margin-top: 0.75rem;
+}
+
+.gu-retry {
+    margin-top: 0.25rem;
+}
+
+.gu-footer {
+    margin-top: 0.5rem;
+}
+
+.gu-log {
+    margin-top: 0.25rem;
+    font-size: 0.8125rem;
+}
+
+.gu-pre {
+    white-space: pre-wrap;
+    max-height: 16rem;
+    overflow: auto;
+    margin: 0.25rem 0 0;
+}
